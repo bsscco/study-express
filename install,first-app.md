@@ -10,12 +10,14 @@ express -v jade #이후 y입력
 ```
 
 # first-app
-app.js 하단에 추가
+app.js 하단에 아래 코드 추가
 ```javascript
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
 ```
+
+터미널에서 앱 실행
 ```cli
 cd myapp
 node app.js
